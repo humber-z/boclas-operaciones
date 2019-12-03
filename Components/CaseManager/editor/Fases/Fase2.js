@@ -5,7 +5,7 @@ import DateFnsUtils from '@date-io/date-fns';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import Dialog from '@material-ui/core/Dialog';
-import Conclusion from './Conclusion'
+import Conclusion from './Conclusion' 
 import { makeStyles } from '@material-ui/core/styles';
 import {
   MuiPickersUtilsProvider,
@@ -13,7 +13,7 @@ import {
 } from '@material-ui/pickers';
 const firebase = require('firebase'); 
 require('firebase/firestore');
- 
+
      
 
 class Etapa2 extends React.Component{

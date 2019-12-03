@@ -12,13 +12,14 @@ import {
   MuiPickersUtilsProvider, 
   KeyboardDatePicker,
 } from '@material-ui/pickers';
-
+import Permisos from '../../Permisos'
 
  
 class Etapa1 extends React.Component{
    constructor(){
      let archivos=[] //aqui vamoh a jugar los archivos + nomvres de los archivos en variable
                      // antes de pasarlos al state
+                     Permisos.autori
      super()
        this.state = {
         id: '', 
@@ -481,6 +482,7 @@ const datos1={
 Operaciones.actualizaBase(datos1,this.props.selectedNote.id)
  
 Operaciones.notificacion(this.props.selectedNote.name,this.props.selectedNote.title)
+
 
 }
 
